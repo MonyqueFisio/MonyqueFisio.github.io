@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Portfólio | Caio Lucas Dias</title>
+    <link rel="icon" type="image/x-icon" href="" />
+
+    <!-- Arquivo CSS header de navegação e tela de início -->
+    <link rel="stylesheet" href="./assets/css/nav-main.css" />
+    <!-- Minhas informações -->
+    <link rel="stylesheet" href="./assets/css/my-info.css" />
+    <!-- Meus projetos -->
+    <link rel="stylesheet" href="./assets/css/my-proj.css" />
+    <!-- Minhas habilidades -->
+    <link rel="stylesheet" href="./assets/css/my-skills.css" />
+    <!-- Footer da página -->
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+</head>
+
+<body onload="typeWriter(fName);">
+    <div>
+        <!-- Header de navegação -->
+        <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button" />
+        <label class="close-menu-label" for="close-menu" title="close menu"></label>
+        <div class="barra">
+            <div class="menu-centro">
+                <div class="barra-container centralizador">
+                    <div class="logo esquerda">
+                        <a href="index.html">
+                            <img src="./assets/images/gengar.png" alt="logo" />
+                        </a>
+                    </div>
+                    <nav class="direita">
+                        <ul onclick="getElementById('close-menu').checked=false;">
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#sobre-mim">Sobre Mim</a></li>
+                            <li><a href="#projetos">Projetos</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Header de navegação -->
+
+        <!-- Tela principal -->
+        <section id="inicio">
+            <div class="altura-ajuste">
+                <div class="inicio centralizador">
+                    <div class="ajustador organizador">
+                        <div class="apresentacao">
+                            <p class="descricao">
+                                Oi, me chamo <br />
+                                <span style="display: inline" class="meu-nome">
+                                Caio Lucas Dias.</span>
+                                <br />
+                                Desenvolvedor Front-end em formação
+                            </p>
+                            <br />
+                            <div class="linkedin">
+                                <a
+                                    href="https://www.linkedin.com/in/caiolucasdias/"
+                                    target="_blank"
+                                    class="link">
+                                    LinkedIn</a>
+                            </div>
+                        </div>
+                        <div class="minha-foto">
+                            <img
+                                class="minha-foto2"
+                                src="./assets/images/eu.png"
+                                alt="minha-foto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tela principal -->
+
+        <!-- Sobre Mim -->
+        <section id="sobre-mim">
+            <div class="centralizador">
+                <div class="ajustador-2">
+                    <div class="avatar">
+                        <img
+                            class="desenho"
+                            src="./assets/images/meu-avatar.png"
+                            alt="avatar"
+                        />
+                    </div>
+                    <div class="sobre-mim">
+                        <h2>Sobre mim</h2>
+                        <br />
+                        <p>
+                            Meu nome é Caio Lucas Dias e desde pequeno sou um apreciador da tecnologia e suas evoluções.
+                            Possuo experiência com Desenvolvimento Web, pois trabalhei com manutenção de aplicativos web e sua interação com banco de dados.
+                            Atualmente estou focando em ampliar meus conhecimentos a respeito do Front-end, por ser uma área que quero seguir para a vida.
+                        </p>
+                        <br />
+                        <p>
+                            Hoje já possuo conhecimentos maiores de desenvolvimento web, aplicando o HTML, CSS e JS de maneira mais sucinta.
+                        </p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sobre Mim -->
+
+        <!-- Projetos -->
+        <section id="projetos">
+            <div class="centralizador projetos">
+                <h2 class="project">Projetos</h2>
+                <br />
+                <div class="projetos-itens">
+                    <div class="pro">
+                        <div class="projeto-pokedex"><img src="./assets/images/projeto-pokedex.png" /></div>
+                    </div>
+                    <div class="pro">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div class="pro">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div class="pro escondido">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div class="pro escondido">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div class="pro escondido">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <br />
+                </div>
+
+                <div class="github-link">
+                    <button>Ver Mais</button>
+                    <a
+                        href="https://github.com/CaioLDias?tab=repositories"
+                        target="_blank"
+                        >Repositórios no GitHub</a>
+                </div>
+            </div>
+        </section>
+        <!-- Projetos -->
+
+        <!-- Habilidades minhas -->
+        <section id="habilidades">
+            <div class="centralizador">
+                <div class="habilidades-pd">
+                    <h2 class="project">Habilidades</h2>
+                    <br />
+                    <div class="skills-descricao">
+                        <div class="container-skills">
+                            <div class="skill-box skill1 html-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="./assets/images/html.svg"
+                                    alt="html-icone"
+                                />
+                            </div>
+                            <div class="skill-box skill2 css-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="./assets/images/css.svg"
+                                    alt="css-icone"
+                                />
+                            </div>
+                            <div class="skill-box skill3 js-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="./assets/images/js.svg"
+                                    alt="js-icone"
+                                />
+                            </div>
+                            <div class="skill-box skill4 react-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="./assets/images/react.svg"
+                                    alt="react-icone"
+                                />
+                            </div>
+                            <div class="skill-box skill5 node-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="./assets/images/node.svg"
+                                    alt="node-icone"
+                                />
+                            </div>
+                            <div class="skill-box skill6 git-skill">
+                                <img 
+                                    class="icones-habilidades"
+                                    src="./assets/images/git.svg"
+                                    alt="git-icon"
+                                />
+                            </div>
+                            <div class="skill-box skill7 github-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="./assets/images/github.svg"
+                                    alt="github-icon"
+                                />
+                            </div>
+                            <div class="skill-box skill8 java-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="./assets/images/java.svg"
+                                    alt="js-icone"
+                                />
+                            </div>
+                        </div>
+                        <div class="container-descricao">
+                            <p class="texto-descricao">
+                                /* Passe o mouse por cima das habilidades para ler a descrição delas. */
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Habilidades -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="contato-creditos">
+                    E-mail para contato: cailucas2000@icloud.com <br />
+                    Feito por Caio Lucas Dias <br />
+                    Inspirado em modelo: Matheus Vieira <br />
+                </div>
+                <div class="icons">
+                    <div class="links links1">
+                        <a href="https://github.com/CaioLDias" target="_blank">
+                            <img 
+                                class="transparente"
+                                src="./assets/images/githubff.svg"
+                                alt="github-icone"
+                            />
+                        </a>
+                    </div>
+                    <div class="links links2">
+                        <a href="https://www.linkedin.com/in/caiolucasdias/" target="_blank">
+                            <img 
+                                class="transparente2"
+                                src="./assets/images/linkedinff.svg"
+                                alt="linkedin-icone"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer -->
+    </div>
+    <script src="./assets/js/habilidades.js"></script>
+    <script src="./assets/js/scroll.js"></script>
+    <script src="./assets/js/escrever.js"></script>
+</body>
+</html>
