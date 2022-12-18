@@ -1,0 +1,88 @@
+#sobre-mim {
+    width: 100%;
+    background: linear-gradient(to right, rgb(57, 1, 90), rgb(42, 1, 53), black);
+    border-bottom: 2px solid white;
+}
+
+.ajustador-2 {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 67px;
+    max-width: 1064px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 45px;
+    color: white;
+}
+
+.circulo {
+    position: absolute;
+}
+
+.avatar {
+    width: 323px;
+    height: 368px;
+    position: relative;
+    cursor: pointer;
+    transition: ease 1s;
+    margin-bottom: -100px;
+}
+
+.avatar:hover {
+    transform: scale(1.05);
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre-mim p {
+    text-indent: 30px;
+    font-size: 20px;
+    max-width: 610px;
+    color: white;
+    text-align: justify;
+}
+
+@media (max-width: 1200px) {
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .avatar {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+
+    .sobre-mim p {
+        text-indent: 0;
+    }
+}
+
+@media (max-width: 950px) {
+    .circulo {
+        display: none;
+    }
+
+    .ajustador-2 {
+        max-width: 350px;
+        padding: 70px 30px;
+    }
+
+    .avatar {
+        margin-right: 0;
+    }
+}

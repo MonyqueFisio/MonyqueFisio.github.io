@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quando', serif;
+    scroll-behavior: smooth;
+}
+
+.footer {
+    width: 100%;
+    background: linear-gradient(to right, rgb(57, 1, 90), rgb(42, 1, 53), black);
+    padding-top: 2.5px;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato-creditos {
+    color: white;
+    font-family: 'Quando', serif;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 25px;
+}
+
+@media (max-width: 1200px) {
+    .contato-creditos {
+        text-align: center;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+}
+
+.links1, .links2 {
+    height: 55px;
+    width: 55px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.links:hover {
+    transform: rotate(-360deg);
+}
+
+.links1 {
+    background-image: url(../images/githubff2.svg);
+}
+
+.links2 {
+    background-image: url(../images/linkedinff2.svg);
+}
+
+.transparente {
+    transition: ease-in-out 0.3s;
+}
+
+.transparente:hover {
+    opacity: 0;
+}
+
+.transparente2:hover {
+    opacity: 0;
+}
