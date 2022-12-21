@@ -1,6 +1,6 @@
 #projetos {
-    background: linear-gradient(to right, #1f1f1f, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #1f1f1f);
-    border-bottom: 2px solid black;
+    background: linear-gradient(to right, #a386a4, #a386a4, #a386a4, #653d62);
+    border-bottom: 2px solid white;
 }
 
 .projetos {
@@ -19,7 +19,7 @@ button {
     padding: 10px 100px;
     border-radius: 25px;
     cursor: pointer;
-    color: black;
+    color: white;
     background-color: rgba(0, 0, 0, 0.527);
     border: none;
     transition: ease-in-out 0.3s;
@@ -27,7 +27,7 @@ button {
 
 button:hover {
     letter-spacing: 5px;
-    color: greenyellow;
+    color: #4e204e;
 }
 
 .github-link {
@@ -46,7 +46,7 @@ button:hover {
 }
 
 .pro {
-    background-color: #dfbd7d;
+    background-color: #a386a4;
     height: 180px;
     width: 310px;
     border-radius: 20px;
@@ -68,7 +68,7 @@ button:hover {
     letter-spacing: 5px;
 }
 .pro div {
-    background-color: #dfbd7d;
+    background-color: #a386a4;
     width: 1000px;
     text-align: center;
     padding: 5% 0;
