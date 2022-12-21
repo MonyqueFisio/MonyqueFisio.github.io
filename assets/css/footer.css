@@ -8,7 +8,7 @@
 
 .footer {
     width: 100%;
-    background: linear-gradient(to right, rgb(57, 1, 90), rgb(42, 1, 53), black);
+    background: linear-gradient(to right, #1f1f1f, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #1f1f1f);
     padding-top: 2.5px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .contato-creditos {
-    color: white;
+    color: black;
     font-family: 'Quando', serif;
     font-size: 20px;
     padding: 10px 0;
