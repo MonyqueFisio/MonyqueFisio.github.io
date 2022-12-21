@@ -1,7 +1,7 @@
 #sobre-mim {
     width: 100%;
-    background: linear-gradient(to right, rgb(57, 1, 90), rgb(42, 1, 53), black);
-    border-bottom: 2px solid white;
+    background: linear-gradient(to right, #1f1f1f, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #1f1f1f);
+    border-bottom: 2px solid black;
 }
 
 .ajustador-2 {
@@ -15,7 +15,7 @@
 
 h2 {
     font-size: 45px;
-    color: white;
+    color: black;
 }
 
 .circulo {
@@ -28,7 +28,7 @@ h2 {
     position: relative;
     cursor: pointer;
     transition: ease 1s;
-    margin-bottom: -100px;
+    margin-bottom: -40px;
 }
 
 .avatar:hover {
@@ -45,7 +45,7 @@ h2 {
     text-indent: 30px;
     font-size: 20px;
     max-width: 610px;
-    color: white;
+    color: black;
     text-align: justify;
 }
 
