@@ -21,13 +21,13 @@ nav {
 a {
     text-decoration: none;
     display: block;
-    color: black;
+    color: white;
     font-size: 22px;
     transition: ease-in-out 0.3s;
 }
 
 a:hover {
-    color: greenyellow;
+    color: #4e204e;
 }
 
 img {
@@ -38,7 +38,7 @@ img {
 .logo {
     padding-bottom: 10px;
     padding-top: 10px;
-    width: 6%;
+    width: 5%;
     transform: scaleX(-1);
 }
 
@@ -49,7 +49,7 @@ img {
     position: fixed;
     top: 0;
     z-index: 1;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px white;
 }
 
 .barra-container {
@@ -67,11 +67,11 @@ img {
 
 /* Início */
 #inicio {
-    background: linear-gradient(to right, #1f1f1f, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #dfbd7d, #1f1f1f);
+    background: linear-gradient(to right, #a386a4, #a386a4, #a386a4, #653d62);
     height: 100vh;
     display: flex;
     align-items: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
 }
 
 .altura-ajuste {
@@ -87,7 +87,7 @@ img {
 
 .apresentacao {
     max-width: 741px;
-    color: black;
+    color: white;
 }
 
 .descricao {
@@ -102,7 +102,7 @@ img {
 .linkedin {
     width: 479px;
     height: 85px;
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgba(0, 0, 0, 0.327);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,7 +124,7 @@ img {
 
 .link:hover {
     letter-spacing: 5px;
-    color: greenyellow;
+    color: #4e204e;
 }
 
 .minha-foto {
@@ -137,14 +137,14 @@ img {
         top: -15px;
     }
     to {
-        top: 25px;
+        top: 15px;
     }
 }
 
 .minha-foto2 {
     position: relative;
-    border: 4px solid black;
-    border-radius: 100px;
+    border: 5px solid white;
+    border-radius: 150px;
 }
 
 .minha-foto2:hover {
@@ -174,7 +174,7 @@ img {
 @media (max-width: 1200px) {
     
     #inicio {
-        background:#dfbd7d;
+        background:#a386a4;
         height: auto;
     }
 
@@ -334,7 +334,7 @@ img {
     .close-menu:checked~.close-menu-label::after {
         display: block;
         content: '✕';
-        background: #dfbd7d;
+        background: #a386a4;
     }
 
     .barra .barra-container ul li a {
@@ -342,7 +342,7 @@ img {
     }
 
     .barra {
-        background: #dfbd7d;
+        background: #a386a4;
     }
     
     @media (max-width: 414px) {
